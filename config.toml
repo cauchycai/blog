@@ -1,0 +1,4 @@
+baseURL = "https://cauchycai.github.io/"
+languageCode = "en-us"
+title = "Cauchy's Notes"
+theme = "ananke"
