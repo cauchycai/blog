@@ -1,0 +1,24 @@
+#+title: Using Org Mode in Hugo
+#+subtitle: emacs everywhere
+#+date: 2020-11-15
+#+tags[]: howto, emacs, hugo
+
+
+* First level heading
+
+** Second level heading
+
+** A source code example
+   #+BEGIN_SRC python
+   # 词性标注
+   import nltk
+   import pycrfsuite
+   import numpy as np
+   import pandas as pd
+
+   train_data = pd.read_csv('msra_train_bio_simple.txt',sep='\t',header=None)
+   test_data = pd.read_csv('msra_test_bio_simple.txt',sep='\t',header=None)
+   #+END_SRC
+
+** Other syntax examples
+   *BOLD*, /italic/, _underlined_, +deleted+
